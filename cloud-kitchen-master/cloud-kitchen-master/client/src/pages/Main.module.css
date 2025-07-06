@@ -1,0 +1,42 @@
+.main {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  background-color: transparent !important;
+}
+
+.background-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 678px) {
+  .main {
+    width: 90vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+  }
+}
+@media (min-width: 1110px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;
+    width: 90vw;
+    height: fit-content;
+    margin: auto;
+  }
+  .background-container {
+    height: 100vh;
+  }
+}

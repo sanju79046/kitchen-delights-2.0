@@ -1,0 +1,21 @@
+.dates {
+  display: flex;
+  padding: 0.5rem;
+  width: 100%;
+  overflow: scroll;
+}
+
+.active {
+  background-color: orange;
+  color: white;
+}
+
+@media (min-width: 760px) {
+  .dates {
+    display: flex;
+    padding: 0.5rem;
+    width: 100%;
+    overflow: scroll;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,32 @@
+.background {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  position: relative;
+  object-fit: cover;
+}
+
+.location {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+  bottom: 20rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+}
+
+.location label {
+  margin-right: 2rem;
+  font-size: large;
+}
+
+.selection {
+  text-align: center;
+  font-size: large;
+  border-radius: 1rem;
+}

@@ -1,0 +1,12 @@
+.container {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+}
+
+@media (max-width: 1110px) {
+  .container {
+    justify-content: center;
+  }
+}

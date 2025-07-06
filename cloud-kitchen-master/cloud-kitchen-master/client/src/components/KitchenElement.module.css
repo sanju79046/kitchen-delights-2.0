@@ -1,0 +1,33 @@
+.item-description {
+  padding: 1rem;
+  align-items: center;
+  
+}
+
+.item-description h3 {
+  margin: 0;
+}
+
+.image img {
+  width: 100%;
+  margin: 0;
+  height: 50%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.item {
+  margin: 1rem;
+  max-width: 400px;
+}
+
+.item:hover {
+  box-shadow: 2px 2px 8px 3px rgb(128, 128, 128);
+  scale: 1.01;
+}
+
+@media (min-width=1110px) {
+  .item {
+    max-width: 25vw;
+    height: fit-content;
+  }
+}

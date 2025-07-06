@@ -1,0 +1,23 @@
+.container {
+  padding: 0.2rem 1.5rem;
+  margin: 1.5rem 0.5rem;
+  height: auto;
+}
+
+.container p,
+.container h4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container h4:last-child {
+  border-top: 1px solid black;
+  padding-top: 0.5rem;
+  margin-top: 0;
+}
+
+.bold {
+  color: green;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+}

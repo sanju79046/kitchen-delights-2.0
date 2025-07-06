@@ -1,0 +1,5 @@
+.items-list {
+  height:60%;
+  padding: 1rem;
+  overflow: scroll;
+}

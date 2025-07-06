@@ -1,0 +1,18 @@
+.cart {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 1;
+}
+
+.cart-img {
+  width: 5rem;
+}
+
+.counter {
+  color: white;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  border-radius: 1rem;
+}

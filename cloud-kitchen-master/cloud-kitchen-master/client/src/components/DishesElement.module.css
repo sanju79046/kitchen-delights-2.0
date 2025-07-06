@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 760px;
+}
+
+.description {
+  padding: 1rem;
+}
+
+.image-container img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.add-button,
+.edit-button {
+  position: absolute;
+  bottom: 0px;
+  right: 2.5rem;
+}
+
+.quantity-button {
+  position: absolute;
+  bottom: 0px;
+  right: -0.25rem;
+}
+
+@media (min-width: 1110px) {
+  .container {
+    margin: 0;
+  }
+}
+
+.delete-button {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  right: 1rem;
+  top: 1rem;
+}
